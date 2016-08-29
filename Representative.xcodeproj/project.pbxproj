@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FAB59F961D74E25900D4E687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB59F951D74E25900D4E687 /* AppDelegate.swift */; };
-		FAB59F981D74E25900D4E687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB59F971D74E25900D4E687 /* ViewController.swift */; };
 		FAB59F9B1D74E25900D4E687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB59F991D74E25900D4E687 /* Main.storyboard */; };
 		FAB59F9D1D74E25900D4E687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB59F9C1D74E25900D4E687 /* Assets.xcassets */; };
 		FAB59FA01D74E25900D4E687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB59F9E1D74E25900D4E687 /* LaunchScreen.storyboard */; };
+		FAB59FAA1D74E2F700D4E687 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB59FA91D74E2F700D4E687 /* Representative.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAB59F921D74E25900D4E687 /* Representative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Representative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB59F951D74E25900D4E687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAB59F971D74E25900D4E687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAB59F9A1D74E25900D4E687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB59F9C1D74E25900D4E687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB59F9F1D74E25900D4E687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB59FA11D74E25900D4E687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB59FA91D74E2F700D4E687 /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,38 @@
 		FAB59F941D74E25900D4E687 /* Representative */ = {
 			isa = PBXGroup;
 			children = (
+				FAB59FAD1D74E6EB00D4E687 /* ViewController */,
+				FAB59FAC1D74E6DE00D4E687 /* ModelControlloer */,
+				FAB59FAB1D74E6D700D4E687 /* Model */,
 				FAB59F951D74E25900D4E687 /* AppDelegate.swift */,
-				FAB59F971D74E25900D4E687 /* ViewController.swift */,
 				FAB59F991D74E25900D4E687 /* Main.storyboard */,
 				FAB59F9C1D74E25900D4E687 /* Assets.xcassets */,
 				FAB59F9E1D74E25900D4E687 /* LaunchScreen.storyboard */,
 				FAB59FA11D74E25900D4E687 /* Info.plist */,
 			);
 			path = Representative;
+			sourceTree = "<group>";
+		};
+		FAB59FAB1D74E6D700D4E687 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB59FA91D74E2F700D4E687 /* Representative.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAB59FAC1D74E6DE00D4E687 /* ModelControlloer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelControlloer;
+			sourceTree = "<group>";
+		};
+		FAB59FAD1D74E6EB00D4E687 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB59F981D74E25900D4E687 /* ViewController.swift in Sources */,
+				FAB59FAA1D74E2F700D4E687 /* Representative.swift in Sources */,
 				FAB59F961D74E25900D4E687 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
