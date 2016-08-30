@@ -13,6 +13,8 @@
 		FAB59FA01D74E25900D4E687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB59F9E1D74E25900D4E687 /* LaunchScreen.storyboard */; };
 		FAB59FAA1D74E2F700D4E687 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB59FA91D74E2F700D4E687 /* Representative.swift */; };
 		FAB59FAF1D74E7AC00D4E687 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB59FAE1D74E7AC00D4E687 /* NetworkController.swift */; };
+		FAB59FB11D74EE7200D4E687 /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB59FB01D74EE7200D4E687 /* RepresentativeController.swift */; };
+		FAB59FB31D75352E00D4E687 /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB59FB21D75352E00D4E687 /* StateListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FAB59FA11D74E25900D4E687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB59FA91D74E2F700D4E687 /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = SOURCE_ROOT; };
 		FAB59FAE1D74E7AC00D4E687 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		FAB59FB01D74EE7200D4E687 /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		FAB59FB21D75352E00D4E687 /* StateListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB59FAD1D74E6EB00D4E687 /* ViewController */,
-				FAB59FAC1D74E6DE00D4E687 /* ModelControlloer */,
+				FAB59FAC1D74E6DE00D4E687 /* ModelController */,
 				FAB59FAB1D74E6D700D4E687 /* Model */,
 				FAB59F951D74E25900D4E687 /* AppDelegate.swift */,
 				FAB59F991D74E25900D4E687 /* Main.storyboard */,
@@ -76,17 +80,19 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		FAB59FAC1D74E6DE00D4E687 /* ModelControlloer */ = {
+		FAB59FAC1D74E6DE00D4E687 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				FAB59FB01D74EE7200D4E687 /* RepresentativeController.swift */,
 				FAB59FAE1D74E7AC00D4E687 /* NetworkController.swift */,
 			);
-			name = ModelControlloer;
+			name = ModelController;
 			sourceTree = "<group>";
 		};
 		FAB59FAD1D74E6EB00D4E687 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FAB59FB21D75352E00D4E687 /* StateListTableViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			files = (
 				FAB59FAA1D74E2F700D4E687 /* Representative.swift in Sources */,
 				FAB59F961D74E25900D4E687 /* AppDelegate.swift in Sources */,
+				FAB59FB11D74EE7200D4E687 /* RepresentativeController.swift in Sources */,
+				FAB59FB31D75352E00D4E687 /* StateListTableViewController.swift in Sources */,
 				FAB59FAF1D74E7AC00D4E687 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
